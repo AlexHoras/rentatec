@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  padding: 15px 100px;
+  background: #8080801c;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.esteira {
+  width: 90%;
+  margin: 25px auto 80px;
+}
+.esteira .botao {
+  text-align: end;
+  margin: 14px 10px;
+}
+.esteira .botao .cadastra {
+  text-decoration: none;
+  padding: 10px 18px;
+  border-radius: 5px;
+  background: #053605;
+  color: white;
+}
+.esteira table {
+  width: 100%;
+}
+.esteira table thead {
+  background: linear-gradient(44deg, #020202, #1c5d01cc);
+  color: white;
+  letter-spacing: 2px;
+}
+.esteira table tbody tr td {
+  font-size: 1em;
+  font-weight: 500;
+  color: black;
+}
+.esteira table tbody tr td:nth-child(1) {
+  color: black;
+  font-weight: bold;
+}
+.esteira table tbody tr .opcaos {
+  display: flex;
+}
+.esteira table tbody tr .opcaos .view, .esteira table tbody tr .opcaos .edit, .esteira table tbody tr .opcaos .del {
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 14px;
+  margin: 0 3px;
+}
+.esteira table tbody tr .opcaos .view {
+  color: black;
+  border: 2px solid black;
+  transition: all 0.5s;
+}
+.esteira table tbody tr .opcaos .view:hover {
+  color: white;
+  background-color: black;
+  transition: all 0.5s;
+}
+.esteira table tbody tr .opcaos .edit {
+  color: #043604;
+  border: 2px solid #043604;
+  transition: all 0.5s;
+}
+.esteira table tbody tr .opcaos .edit:hover {
+  color: white;
+  background-color: #043604;
+  transition: all 0.5s;
+}
+.esteira table tbody tr .opcaos .del {
+  color: #4b0202;
+  border: 2px solid #4b0202;
+  transition: all 0.5s;
+}
+.esteira table tbody tr .opcaos .del:hover {
+  color: white;
+  background-color: #4b0202;
+  transition: all 0.5s;
+}
+
+.centraliza {
+  padding: 50px 150px;
+}
+.centraliza form [placeholder] {
+  font-size: 17px;
+  color: #073f8e;
+  font-weight: 500;
+  margin: 0;
+}
+.centraliza form .form-control {
+  background: #e6e6e6;
+  height: 55px;
+  margin-bottom: 27px;
+}
+.centraliza form .text-area {
+  height: 185px;
+}
+.centraliza form .botao {
+  text-align: -webkit-center;
+}
+.centraliza form .botao .botao-enviar {
+  float: right;
+  padding-bottom: 20px;
+}
+.centraliza form .botao button {
+  background: darkgreen;
+  padding: 13px 72px;
+  transition: all 0.5s ease-in-out;
+  border-radius: 0.2em;
+  display: flex;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1;
+  margin: 0;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+.centraliza form .botao button:hover, .centraliza form .botao button:focus {
+  color: #fff;
+}
+.centraliza form .botao .third {
+  color: #fff;
+  box-shadow: 0 0 40px 40px darkgreen inset, 0 0 0 0 white;
+  transition: all 0.3s ease-in-out;
+}
+.centraliza form .botao .third:hover {
+  box-shadow: 0 0 10px 0 #fff inset, 0 0 10px 4px #b704150a;
+}
+
+.visualiza {
+  padding: 15px 100px;
+}
+.visualiza .dados {
+  background: #80808014;
+  padding: 14px;
+  border-radius: 15px;
+}
+
+.alert {
+  text-align: center;
+  font-size: 20px;
+}
